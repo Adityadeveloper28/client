@@ -1,0 +1,30 @@
+.par {
+  font-family: "Courier New", Courier, monospace;
+  margin: auto;
+}
+
+/* Media query for screens with a maximum width of 600px (mobile devices) */
+@media screen and (max-width: 600px) {
+  /* Adjust font size for mobile devices */
+  .par {
+    font-size: 1rem;
+    /* Decrease font size for mobile */
+  }
+  .about {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3rem;
+  }
+}
+
+/* Media query for screens with a minimum width of 601px (laptop/desktop devices) */
+@media screen and (min-width: 601px) {
+  /* Adjust font size for laptop/desktop devices */
+  .par {
+    font-size: 1.5rem;
+    /* Keep original font size for laptops */
+  }
+  .about {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 4.5rem;
+  }
+}

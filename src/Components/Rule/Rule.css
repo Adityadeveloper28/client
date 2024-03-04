@@ -1,0 +1,58 @@
+
+.para {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  margin: auto;
+}
+.fade-in-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition-delay: 0.5s;
+}
+
+.fade-in-text.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .prize {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3.5rem;
+  }
+  .payment {
+    padding: 7px;
+    margin: auto;
+    align-items: center;
+  }
+  .accord {
+    padding: 7px;
+    margin: auto;
+  }
+  .rule {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3rem;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .prize {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 5.5rem;
+  }
+  .payment {
+    padding: 29px;
+    margin: auto;
+    align-items: center;
+  }
+  .accord {
+    padding: 29px;
+    margin: auto;
+  }
+  .rule {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 4.5rem;
+  }
+}

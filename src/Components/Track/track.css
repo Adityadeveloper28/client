@@ -1,0 +1,41 @@
+.para {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  margin: auto;
+}
+.track1 {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.6px);
+  -webkit-backdrop-filter: blur(0.6px);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.track2 {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+@media (max-width: 768px) {
+  .Imn {
+    width: 15rem;
+  }
+  .track {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3rem;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .Imn {
+    width: 22rem;
+  }
+  .track {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 5rem;
+  }
+}

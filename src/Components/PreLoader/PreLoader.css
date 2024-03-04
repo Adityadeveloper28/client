@@ -1,0 +1,49 @@
+/* PreLoader.css */
+
+/* Common styles */
+.text {
+  font-family: "Franklin Gothic Medium";
+  color: white;
+  text-stroke: 2px black;
+  opacity: 0;
+}
+.bg {
+  background-color: black;
+}
+/* Mobile view */
+@media (max-width: 768px) {
+  .vid {
+    font-family: "fantasy";
+    font-size: 1.5rem;
+  }
+  .present {
+    font-family: "fantasy";
+    font-size: 1rem;
+  }
+  .vnps {
+    font-family: "fantasy";
+    font-size: 3rem;
+  }
+  .logo{
+    width:5rem;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+  .vid {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3rem;
+  }
+  .present {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3rem;
+  }
+  .vnps {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 3rem;
+  }
+  .logo{
+    width:7rem;
+  }
+}

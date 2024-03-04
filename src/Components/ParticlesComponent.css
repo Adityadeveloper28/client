@@ -1,0 +1,13 @@
+.particles-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* Initial opacity */
+  transition: opacity 1s ease; /* Transition effect */
+}
+
+.particles-container.particles-loaded {
+  opacity: 1; /* Opacity when particles are loaded */
+}

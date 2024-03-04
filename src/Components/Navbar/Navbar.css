@@ -1,0 +1,23 @@
+#main {
+  background: linear-gradient(
+    180deg,
+    rgba(16, 15, 13, 0.6587885154061625) 40%,
+    rgba(16, 15, 13, 0.9024859943977591) 63%
+  );
+}
+.add {
+  color: white;
+}
+
+.add:hover {
+  background-color: white !important;
+  color: black;
+}
+.add:active {
+  background-color: black !important;
+  color: white;
+}
+.add:after {
+  background-color: black !important;
+  color: white;
+}
