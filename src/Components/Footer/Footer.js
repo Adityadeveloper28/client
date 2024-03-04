@@ -6,7 +6,7 @@ function Footer() {
       <footer className="footer">
         <div className="container">
           <div className="footer-content">
-            <div className="footer-logo">OSCILLATIONS'24</div>
+            <div className="footer-logo">VNPS'24</div>
             <div className="footer-links">
               <ul className="footer-menu">
                 <li>
@@ -52,7 +52,7 @@ function Footer() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>© 2024 Oscillations. All rights reserved.</p>
+            <p>© 2024 VNPS. All rights reserved.</p>
           </div>
         </div>
       </footer>
