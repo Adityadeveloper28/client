@@ -36,7 +36,7 @@ function Rule() {
         <p className="text-white text-center para mt-2">
           There are some rules you need to follow..!!!
         </p>
-        <div className="row justify-content-center d-flex mt-3">
+        <div className="row-fluid justify-content-center gap-3 d-flex mt-3">
           <div className="col justify-content-center d-flex mt-2">
             <div
               className="card text-white"
