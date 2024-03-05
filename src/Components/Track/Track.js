@@ -20,7 +20,7 @@ function Track() {
           <div className="col p-2 d-flex justify-content-center">
             <div
               className="card border-5 border-secondary track1"
-              style={{ width: "25rem" }}
+              style={{ width: "23rem" }}
             >
               <img
                 src={gif}
@@ -57,7 +57,7 @@ function Track() {
           <div className="col p-2  d-flex justify-content-center">
             <div
               className="card border-5 border-secondary track1"
-              style={{ width: "25rem" }}
+              style={{ width: "23rem" }}
             >
               <img
                 src={gif1}
@@ -91,7 +91,7 @@ function Track() {
           <div className="col p-2  d-flex justify-content-center rounded-3">
             <div
               className="card border-5 border-secondary track1"
-              style={{ width: "25rem" }}
+              style={{ width: "23rem" }}
             >
               <img
                 src={gif5}
@@ -119,7 +119,7 @@ function Track() {
           <div className="col p-2  d-flex justify-content-center ">
             <div
               className="card border-5 border-secondary track1 "
-              style={{ width: "25rem" }}
+              style={{ width: "23rem" }}
             >
               <img
                 src={gif3}
@@ -153,7 +153,7 @@ function Track() {
           <div className="col p-2  d-flex justify-content-center">
             <div
               className="card border-5 border-secondary track1"
-              style={{ width: "25rem" }}
+              style={{ width: "23rem" }}
             >
               <img
                 src={gif4}

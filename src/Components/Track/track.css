@@ -20,9 +20,9 @@
   -webkit-backdrop-filter: blur(0px);
 }
 @media (max-width: 768px) {
-  .Imn {
+  /* .Imn {
     width: 15rem;
-  }
+  } */
   .track {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 3rem;
@@ -31,11 +31,14 @@
 
 /* Desktop view */
 @media (min-width: 769px) {
-  .Imn {
+  /* .Imn {
     width: 22rem;
-  }
+  } */
   .track {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 5rem;
   }
+}
+.Imn {
+  width: 80%;
 }
