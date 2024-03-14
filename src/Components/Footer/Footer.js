@@ -1,6 +1,17 @@
 import React from "react";
 import "./Footer.css";
+import { scrollToComponent } from "../ScrollTo";
+import { Link } from "react-router-dom";
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Smooth scroll behavior
+    });
+  };
+  const handleLinkClick = (componentId) => {
+    scrollToComponent(componentId);
+  };
   return (
     <div className="conatiner-fluid bg-dark mt-5 foot">
       <footer className="footer">
@@ -10,19 +21,21 @@ function Footer() {
             <div className="footer-links">
               <ul className="footer-menu">
                 <li>
-                  <a href="#">Home</a>
+                  <Link onClick={scrollToTop}>Home</Link>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <Link onClick={() => handleLinkClick("about")}>About</Link>
                 </li>
                 <li>
-                  <a href="#">Tracks</a>
+                  <Link onClick={() => handleLinkClick("track")}>Tracks</Link>
                 </li>
                 <li>
-                  <a href="#">Rules</a>
+                  <Link onClick={() => handleLinkClick("rule")}>Rules</Link>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <Link onClick={() => handleLinkClick("contact")}>
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>

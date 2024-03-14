@@ -37,19 +37,14 @@ function Track() {
               </div>
               <ul className="list-group list-group-numbered rounded-2 p-2">
                 <li className="list-group-item track2">
-                  Thermal and Fluid Power Engg.
+                  Mechanical System Design and Development{" "}
                 </li>
                 <li className="list-group-item track2">
-                  Mechanical System Design and Development
+                  Renewable & Non Renewable Energy
                 </li>
-                <li className="list-group-item track2">Industry 4.0</li>
-                <li className="list-group-item track2">Renewable Energy</li>
+                <li className="list-group-item track2">Electric Vehicle</li>
                 <li className="list-group-item track2">
-                  {" "}
-                  Optimisation and Simulation
-                </li>
-                <li className="list-group-item track2">
-                  AI and ML application to Mechanical systems
+                  AI and ML application to Mechanical Systems
                 </li>
               </ul>
             </div>
@@ -106,12 +101,15 @@ function Track() {
                 <h5 className="card-title fw-bolder">Track 3</h5>
               </div>
               <ul className="list-group list-group-numbered p-2">
+                <li className="list-group-item track2">Data Science</li>
                 <li className="list-group-item track2">
-                  Automation Using PLC, SCADA and DCS
+                  Artificial Intelligence{" "}
                 </li>
+                <li className="list-group-item track2">Machine Learning</li>
                 <li className="list-group-item track2">Robotics</li>
+                <li className="list-group-item track2">Deep Learning</li>
                 <li className="list-group-item track2">
-                  Biomedical Instrumentation
+                  ⁠Natural Language Processing
                 </li>
               </ul>
             </div>
@@ -136,17 +134,17 @@ function Track() {
               </div>
               <ul className="list-group list-group-numbered p-2">
                 <li className="list-group-item track2">
-                  Cloud Computing and Big Data
+                  Cloud computing & Big Data Analytics{" "}
                 </li>
+                <li className="list-group-item track2">Web of Things</li>
                 <li className="list-group-item track2">
-                  Artifical Intelligence and Machine Learning
+                  Cyber security & Blockchain
                 </li>
-                <li className="list-group-item track2">Gaming</li>
                 <li className="list-group-item track2">Web Of Things</li>
                 <li className="list-group-item track2">
-                  Web Security and Networking
+                  Mobile & Web Application{" "}
                 </li>
-                <li className="list-group-item track2">Robotics</li>
+                <li className="list-group-item track2">Soft computing</li>
               </ul>
             </div>
           </div>

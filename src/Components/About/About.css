@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Protest+Riot&display=swap');
 .par {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Anta', sans-serif;
   margin: auto;
 }
 
@@ -7,11 +9,11 @@
 @media screen and (max-width: 600px) {
   /* Adjust font size for mobile devices */
   .par {
-    font-size: 1rem;
+    font-size: 17px/33px;
     /* Decrease font size for mobile */
   }
   .about {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Protest Riot', sans-serif;
     font-size: 3rem;
   }
 }
@@ -24,7 +26,7 @@
     /* Keep original font size for laptops */
   }
   .about {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Protest Riot', sans-serif;
     font-size: 4.5rem;
   }
 }

@@ -73,18 +73,20 @@ function Rule() {
                 <h1 className="card-title fw-bolder text-center">
                   Resgiration Fee
                 </h1>
-                <p className="card-text m-auto ">
-                  <ul style={{}}>
+                <p className="card-text m-auto " >
+                  <ul style={{ fontSize:'12px'}}>
                     <li>
                       {" "}
-                      The rates are per group basis Internal (For VCET
-                      Students): BE Major Project: ₹ 200/-
+                      The rates are per group <code style={{color:'rgb(206 217 5)'}}>(For VCET Students Oscilation +
+                      VNPS compulsory)</code>: ₹ 500/-
                     </li>
                     <li>
-                      TE/SE Minor Project: ₹ 150/- External (For NON-VCET
-                      Students): BE Major Project: ₹ 300/-{" "}
+                      {" "}
+                      The rates are per group <code style={{color:'rgb(206 217 5)'}}>(For VCET Students Oscilation +
+                      VNPS compulsory , also member of professional bodies)</code>: ₹ 400/-
                     </li>
-                    <li>TE/SE Minor Project: ₹ 200/-.</li>
+                    <li>The rates are per group per Project: ₹500</li>
+                    <li> The rates are per group per Project(Member of professional bodies): ₹500 .</li>
                   </ul>
                 </p>
               </div>
@@ -115,7 +117,12 @@ function Rule() {
         </div>
         <div className="row justify-content-center d-flex mt-4">
           <img src={png4} style={{ width: "5rem" }} />
-          <h1 className="text-center text-white p-3">
+          <h1
+            className="text-center text-white p-3"
+            style={{
+              fontFamily: "Anta",
+            }}
+          >
             Registration Guidelines
           </h1>
           <div className="row-sm p-1 m-auto">
@@ -145,7 +152,14 @@ function Rule() {
           <div className="col-lg text-white">
             <div className="row">
               <img src={png5} style={{ width: "5rem" }} className="m-auto" />
-              <h3 className="text-center">Payment details</h3>
+              <h3
+                className="text-center"
+                style={{
+                  fontFamily: "Anta",
+                }}
+              >
+                Payment details
+              </h3>
             </div>
             <div className="row  payment">
               <ul>
@@ -216,7 +230,14 @@ function Rule() {
           <div className="col-lg text-white">
             <div className="row">
               <img src={png6} style={{ width: "5rem" }} className="m-auto" />
-              <h3 className="text-center">Contacts</h3>
+              <h3
+                className="text-center"
+                style={{
+                  fontFamily: "Anta",
+                }}
+              >
+                Contacts
+              </h3>
             </div>
             <div className="row  accord">
               <div

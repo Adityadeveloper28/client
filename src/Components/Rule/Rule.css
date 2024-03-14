@@ -1,9 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Protest+Riot&display=swap');
 
-.para {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.5rem;
-  margin: auto;
-}
 .fade-in-text {
   opacity: 0;
   transform: translateY(20px);
@@ -31,7 +28,7 @@
     margin: auto;
   }
   .rule {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Protest Riot', sans-serif;
     font-size: 3rem;
   }
 }
@@ -52,7 +49,7 @@
     margin: auto;
   }
   .rule {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Protest Riot', sans-serif;
     font-size: 4.5rem;
   }
 }

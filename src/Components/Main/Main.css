@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
 .hr {
   width: 25%;
   /* alig%n-items: center; */
@@ -23,8 +25,8 @@
 }
 @media (max-width: 768px) {
   .intro {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 4rem;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 3rem;
   }
   .sub {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -43,7 +45,7 @@
 /* Desktop view */
 @media (min-width: 769px) {
   .intro {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Protest Riot', sans-serif;
     font-size: 6.5rem;
   }
   .sub {

@@ -1,8 +1,7 @@
-.para {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.5rem;
-  margin: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Protest+Riot&display=swap');
+
+
 .track1 {
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.29);
@@ -24,8 +23,15 @@
     width: 15rem;
   } */
   .track {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Protest Riot', sans-serif;
     font-size: 3rem;
+    
+  }
+  .para {
+    font-family: 'Anta', sans-serif;
+    margin: auto;
+    font-size: 17px/33px;
+
   }
 }
 
@@ -35,8 +41,14 @@
     width: 22rem;
   } */
   .track {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Protest Riot', sans-serif;
     font-size: 5rem;
+  }
+  .para {
+    font-family: 'Anta', sans-serif;
+    margin: auto;
+    font-size: 1.5rem;
+
   }
 }
 .Imn {
