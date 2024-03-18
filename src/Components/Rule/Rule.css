@@ -15,7 +15,7 @@
 
 @media (max-width: 768px) {
   .prize {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Anta', sans-serif;
     font-size: 3.5rem;
   }
   .payment {
@@ -36,7 +36,7 @@
 /* Desktop view */
 @media (min-width: 769px) {
   .prize {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Anta', sans-serif;
     font-size: 5.5rem;
   }
   .payment {

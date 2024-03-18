@@ -6,6 +6,7 @@ import png3 from "./Forms-amico.png";
 import png4 from "./guidelines.png";
 import png5 from "./shop.png";
 import png6 from "./contact-book.png";
+import { Link } from "react-router-dom";
 function Rule() {
   const [isVisible, setIsVisible] = useState(true);
   const [isScrollingUp, setIsScrollingUp] = useState(true);
@@ -50,8 +51,11 @@ function Rule() {
               />
               <div className="card-body">
                 <h1 className="card-title fw-bolder text-center">Team Size</h1>
-                <p className="card-text text-center">
-                  A team can consist of Maximum 4 members.Bearing a valid
+                <p className="card-text text-center" style={{
+                  fontSize:'1.35rem'
+                }}>
+                  A team can consist of Maximum 4 members.
+                  Bearing a valid
                   college ID mandatory.
                 </p>
               </div>
@@ -71,22 +75,33 @@ function Rule() {
               />
               <div className="card-body">
                 <h1 className="card-title fw-bolder text-center">
-                  Resgiration Fee
+                  Registration Fee
                 </h1>
-                <p className="card-text m-auto " >
-                  <ul style={{ fontSize:'12px'}}>
+                <p className="card-text m-auto ">
+                  <ul style={{ fontSize: "15px" }}>
                     <li>
                       {" "}
-                      The rates are per group <code style={{color:'rgb(206 217 5)'}}>(For VCET Students Oscilation +
-                      VNPS compulsory)</code>: ₹ 500/-
+                      The rates are per group{" "}
+                      <code style={{ color: "rgb(206 217 5)",fontSize:'15px' }}>
+                        (For VCET Students Oscilation + VNPS compulsory)
+                      </code>
+                      : ₹ 500/-
                     </li>
                     <li>
                       {" "}
-                      The rates are per group <code style={{color:'rgb(206 217 5)'}}>(For VCET Students Oscilation +
-                      VNPS compulsory , also member of professional bodies)</code>: ₹ 400/-
+                      The rates are per group{" "}
+                      <code style={{ color: "rgb(206 217 5)",fontSize:'15px' }}>
+                        (For VCET Students Oscilation + VNPS compulsory , also
+                        member of professional bodies)
+                      </code>
+                      : ₹ 400/-
                     </li>
                     <li>The rates are per group per Project: ₹500</li>
-                    <li> The rates are per group per Project(Member of professional bodies): ₹500 .</li>
+                    <li>
+                      {" "}
+                      The rates are per group per Project(Member of professional
+                      bodies): ₹400 .
+                    </li>
                   </ul>
                 </p>
               </div>
@@ -108,8 +123,11 @@ function Rule() {
                 <h1 className="card-title fw-bolder text-center">
                   REGISTRATION
                 </h1>
-                <button className="btn btn-outline-light m-auto d-flex mt-5 fs-2 fw-bolder">
-                  Register Here
+                <button className="btn border border-2 m-auto d-flex mt-5 fs-2 fw-bolder" >
+                  <Link to='https://forms.gle/2XTa9uRZv7Au2Dq3A'style={{
+                    textDecoration:'none',
+                  }} className="link-none text-white">
+                  Register Here</Link>
                 </button>
               </div>
             </div>
@@ -134,12 +152,16 @@ function Rule() {
                 link is available in the brochure as well as rule book.
               </li>
               <li>
-                Registration fee for Internal(VCET Students) Major Project (BE
-                project) is ₹ 200/- and for Minor Project (SE,TE project) is ₹
-                150/- and for External(NON-VCET Students) Major Project (BE
-                project) is ₹ 200/- and for Minor Project (SE,TE project) is ₹
-                200/- which has to be paid through Google Pay or Paytm on the
-                given phone numbers or upi id.
+                For VCET students, registration in both Oscillation and VNPS is
+                compulsory. The rates are ₹500 per group for regular VCET
+                students and ₹400 per group for VCET students who are also
+                members of professional bodies.
+              </li>
+              <li>
+                The rates for Non-VCET students per group Project: ₹500,
+                for Member of professional bodies: ₹400. which has to be paid
+                through Google Pay or Paytm on the given phone numbers or upi
+                id of the respective track.
               </li>
               <li>
                 Complete the registration procedure by updating project details
@@ -163,64 +185,64 @@ function Rule() {
             </div>
             <div className="row  payment">
               <ul>
-                <li>Payment should be done by 04th April 2023 itself.</li>
+                <li>Payment should be done by 4th April 2024 itself.</li>
                 <li>
                   Track 1:
                   <p>
-                    Raj Sanghrajka -
+                    Abhigya Hazra -
                     <a
-                      href="tel:9653278209"
+                      href="tel:9604297830"
                       className="link-offset-2 link-underline link-underline-opacity-0 link-light"
                     >
-                      9653278209
+                      &nbsp;9604297830
                     </a>
                   </p>
                 </li>
                 <li>
                   Track 2:
                   <p>
-                    Nilesh Jangid -
+                    Yash Biranje -
                     <a
-                      href="tel:8454913316"
+                      href="tel:9763999221"
                       className="link-offset-2 link-underline link-underline-opacity-0 link-light"
                     >
-                      8454913316{" "}
+                      &nbsp;9763999221
                     </a>
                   </p>
                 </li>
                 <li>
                   Track 3:
                   <p>
-                    Abhinav Vishwakarma -
+                    Shubham Shah -
                     <a
-                      href="tel:8237177660"
+                      href="tel:9226797391"
                       className="link-offset-2 link-underline link-underline-opacity-0 link-light"
                     >
-                      8237177660
+                      &nbsp;9226797391
                     </a>
                   </p>
                 </li>
                 <li>
                   Track 4:
                   <p>
-                    Harsh Sawant -
+                    Ayush Churi -
                     <a
-                      href="tel: 7798963544"
+                      href="tel:8421419425"
                       className="link-offset-2 link-underline link-underline-opacity-0 link-light"
                     >
-                      7798963544
+                      &nbsp;8421419425
                     </a>
                   </p>
                 </li>
                 <li>
                   Track 5:
                   <p>
-                    Hardik Vora -
+                    Aditya Kute -
                     <a
-                      href="tel:8600578184 "
+                      href="tel:9769738332"
                       className="link-offset-2 link-underline link-underline-opacity-0 link-light"
                     >
-                      8600578184{" "}
+                      &nbsp;9769738332
                     </a>
                   </p>
                 </li>
@@ -264,26 +286,26 @@ function Rule() {
                   >
                     <div className="accordion-body">
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Aditya Hendre:</dt>
+                        <dt class="col-sm-4 text-center">Tisha Paul:</dt>
                         <dd class="col-sm-4 text-center ">
                           <a
-                            href="tel: +91 996919962"
+                            href="tel: +91 8999184127"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 996919962
+                            +91 8999184127
                           </a>
                         </dd>
                       </div>
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Chintan Patel:</dt>
+                        <dt class="col-sm-4 text-center">Omkar Malusare: </dt>
                         <dd class="col-sm-4 text-center ">
                           <a
-                            href="tel:  +91 9112355745"
+                            href="tel:  +91 8605590713"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 9112355745
+                            +91 8605590713
                           </a>
                         </dd>
                       </div>
@@ -310,26 +332,26 @@ function Rule() {
                   >
                     <div className="accordion-body">
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Shikhar Mehta:</dt>
+                        <dt class="col-sm-4 text-center">Rashmi Mote:</dt>
                         <dd class="col-sm-4 text-center ">
                           <a
-                            href="tel: +91 8080080780"
+                            href="tel: +91 8169734612"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 8080080780
+                            +91 8169734612
                           </a>
                         </dd>
                       </div>
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Nikhil Kargatia:</dt>
+                        <dt class="col-sm-4 text-center">Omkar Bhikle:</dt>
                         <dd class="col-sm-4 text-center ">
                           <a
-                            href="tel:   +91 7875856630"
+                            href="tel:   +91 8879135446"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 7875856630
+                            +91 8879135446
                           </a>
                         </dd>
                       </div>
@@ -356,27 +378,27 @@ function Rule() {
                   >
                     <div className="accordion-body">
                       <div className="row">
-                        <dt class="col-sm-5 text-center"> Varun Tatkare :</dt>
+                        <dt class="col-sm-5 text-center">Reena Vaidya :</dt>
                         <dd class="col-sm-4 text-center ">
                           <a
-                            href="tel: +91 8928008848"
+                            href="tel: +91 7506759126"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 8928008848
+                            +91 7506759126
                           </a>
                         </dd>
                       </div>
                       <div className="row">
-                        <dt class="col-sm-5 text-center"> Siddhant Lokare:</dt>
+                        <dt class="col-sm-5 text-center">Pia Purohit :</dt>
                         <dd class="col-sm-4 text-center ">
                           <a
-                            href="tel: +91 9594370381
+                            href="tel: +91 7620411027
                           "
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 9594370381
+                            +91 7620411027
                           </a>
                         </dd>
                       </div>
@@ -404,26 +426,26 @@ function Rule() {
                   >
                     <div className="accordion-body">
                       <div className="row">
-                        <dt class="col-sm-4 text-center"> Aditi Sawant -</dt>
+                        <dt class="col-sm-4 text-center">Aditya Lawate -</dt>
                         <dd class="col-sm-4 text-center ">
                           <a
-                            href="tel:  +91  9623265606"
+                            href="tel:  +91 9860678418"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 9623265606
+                            +91 9860678418
                           </a>
                         </dd>
                       </div>
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Vedant Golap:</dt>
+                        <dt class="col-sm-4 text-center">Kartik Poojary:</dt>
                         <dd class="col-sm-4 text-center ">
                           <a
-                            href="tel:  +91 +91 9623265606"
+                            href="tel:+91 7507355838"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 9623265606
+                            +91 7507355838
                           </a>
                         </dd>
                       </div>
@@ -454,23 +476,22 @@ function Rule() {
                         <dt class="col-sm-5 text-center">Deeksha Shetty: </dt>
                         <dd class="col-sm-4 text-center ">
                           <a
-                            href="tel:  +91 80974 70510"
+                            href="tel:  +91 8097470510"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
-                            {" "}
-                            +91 80974 70510
+                            +91 8097470510
                           </a>
                         </dd>
                       </div>
                       <div className="row">
-                        <dt class="col-sm-5 text-center">Gaurang Thakur :</dt>
+                        <dt class="col-sm-5 text-center">Amey Mahajan:</dt>
                         <dd class="col-sm-4 text-center ">
                           <a
-                            href="tel:   +91 88052 73185"
+                            href="tel:   +91 8657557690"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
                           >
                             {" "}
-                            +91 88052 73185{" "}
+                            +91 8657557690
                           </a>
                         </dd>
                       </div>

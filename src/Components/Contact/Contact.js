@@ -33,15 +33,15 @@ function Contact() {
               <div className="col-sm-1 p-0" style={{ width: "auto" }}>
                 <img src={png2} style={{ width: "32px" }} />
               </div>
-              <div className="col-sm-5" style={{ width: "75%" }}>
+              <a href="tel:02502338234" className="col-sm-5 text-white" style={{ width: "75%",textDecoration:'none' }}>
                 0250-2338234
-              </div>
+              </a>
             </div>
             <div className="row mt-4">
               <div className="col-sm-1 p-0" style={{ width: "auto" }}>
                 <img src={png3} style={{ width: "32px" }} />
               </div>{" "}
-              <div className="col-sm-5" style={{ width: "auto" }}>https://vcet.edu.in/</div>
+              <a href="https://vcet.edu.in/" className="col-sm-5 text-white" style={{ width: "auto",textDecoration:'none' }}>https://vcet.edu.in/</a>
             </div>
           </div>
         </div>

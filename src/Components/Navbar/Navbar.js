@@ -19,7 +19,7 @@ function Navbar() {
       id="main"
     >
       <div className="container-fluid ">
-        <Link to="/" className="navbar-brand fw-bolder">
+        <Link to="/" className="navbar-brand fw-bolder add">
           VNPS
         </Link>
         <button

@@ -11,7 +11,7 @@ function Track() {
     <div className="container-fluid p-3 mt-5" id="track">
       <br />
       <div className="container">
-        <div className="fw-bolder text-center text-white track ">TRACK</div>
+        <div className="fw-bolder text-center text-white track ">TRACKS</div>
         <p className="text-white text-center para mt-2">
           The following tracks refers to the categories in which your project
           belong Entries are not restricted to these topics only.
@@ -80,6 +80,7 @@ function Track() {
                   Networks
                 </li>
                 <li className="list-group-item track2"> VLSI Application</li>
+                <li className="list-group-item track2"> Biomedical Instrumentation</li>
               </ul>
             </div>
           </div>

@@ -42,22 +42,18 @@ function Footer() {
             <div className="footer-social">
               <ul className="social-icons">
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/csi.vcet.1">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li>
+               
                 <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/csi_vcet">
                     <i className="fab fa-instagram" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/csi-vcet-65b4151b5/">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </li>

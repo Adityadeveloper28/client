@@ -1,5 +1,6 @@
 import React from "react";
 import "../About/About.css";
+import png1 from "../About/WhatsApp Image 2024-03-15 at 20.53.53_8ff11c11.jpg";
 function About() {
   return (
     <div className="container-fluid mt-5 pt-3  " id="about">
@@ -10,8 +11,8 @@ function About() {
           VNPS 2024 is a National Level project showcase which is the biggest
           Technical Fest organized by Vidyavardhini's College of Engineering and
           Technology. VNPS is realized by the combined efforts of various
-          departments' student committees: IEEE, ISA, CSI, IETE, VMEA, ISHRAE
-          and IGBC. They work in sync to provide a platform to the students with
+          departments' student committees: IEEE, ISA, CSI, IETE, VMEA, ISHRAE,
+          IGBC and IIC. They work in sync to provide a platform to the students with
           different project ideas to come together and present their ideas and
           innovations. VNPS aims to inspire students to think, motivate and
           innovate.
@@ -71,6 +72,14 @@ function About() {
                 src="https://adityalawate.github.io/VNPS-2023/images/logos/final/vmea.png"
                 className="img "
                 style={{ width: "8rem", aspectRatio: "1" }}
+                alt=""
+              />
+            </div>
+            <div className="col mt-3 text-center">
+              <img
+                src={png1}
+                className="img "
+                style={{ width: "10rem" }}
                 alt=""
               />
             </div>

@@ -1,7 +1,12 @@
 import React from "react";
 import "../Main/Main.css";
 import { Link } from "react-router-dom";
+import { scrollToComponent } from "../ScrollTo";
+
 function Main() {
+  const handleLinkClick = (componentId) => {
+    scrollToComponent(componentId);
+  };
   return (
     <div className="container-fluid  text-white p-0 " id="new">
       <br></br>
@@ -25,7 +30,7 @@ function Main() {
         </div>
 
         <div className="text-center m-auto mt-5">
-          <Link className="btn btn-light fs-3 sub rounded-pill" type="button">
+          <Link className="btn btn-light fs-3 sub rounded-pill" type="button" onClick={() => handleLinkClick("rule")}>
             Registeration
           </Link>
         </div>
