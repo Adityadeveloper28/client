@@ -82,26 +82,17 @@ function Rule() {
                     <li>
                       {" "}
                       The rates are per group{" "}
-                      <code style={{ color: "rgb(206 217 5)",fontSize:'15px' }}>
-                        (For VCET Students Oscilation + VNPS compulsory)
-                      </code>
                       : ₹ 500/-
                     </li>
                     <li>
                       {" "}
                       The rates are per group{" "}
                       <code style={{ color: "rgb(206 217 5)",fontSize:'15px' }}>
-                        (For VCET Students Oscilation + VNPS compulsory , also
-                        member of professional bodies)
+                        ( member of professional bodies )
                       </code>
                       : ₹ 400/-
                     </li>
-                    <li>The rates are per group per Project: ₹500</li>
-                    <li>
-                      {" "}
-                      The rates are per group per Project(Member of professional
-                      bodies): ₹400 .
-                    </li>
+                   
                   </ul>
                 </p>
               </div>
