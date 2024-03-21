@@ -33,7 +33,7 @@ const PreLoader = () => {
         </div>
         <div className="mt-2 present">presents</div>
         <div className="vnps">VNPS</div>
-        <div className="vid">PRIZE POOL : ₹ 2,00,000</div>
+        <div className="vid text-yellow">PRIZE POOL : ₹ 2,00,000</div>
       </div>
     </div>
   );
