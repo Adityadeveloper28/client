@@ -1,11 +1,10 @@
 import React from "react";
 import "./track.css";
-import gif from "./Time.gif";
-import gif1 from "./Firmware.gif";
-import gif3 from "./Real-time Sync.gif";
-import gif4 from "./House restyling.gif";
-import gif5 from "./people using robots.gif";
-
+import gif from "./Time machine-bro.png";
+import gif1 from "./Firmware-amico.png";
+import gif3 from "./Real-time Sync-cuate.png";
+import gif4 from "./House restyling-bro.png";
+import png1 from "./people using robots-amico.png"
 function Track() {
   return (
     <div className="container-fluid p-3 mt-5" id="track">
@@ -93,7 +92,7 @@ function Track() {
               style={{ width: "23rem" }}
             >
               <img
-                src={gif5}
+                src={png1}
                 alt="Your GIF"
                 style={{
                   marginLeft: "auto",
