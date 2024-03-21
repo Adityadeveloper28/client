@@ -143,7 +143,7 @@ function Rule() {
           >
             Registration Guidelines
           </h1>
-          <div className="row-sm p-1 m-auto">
+          <div className="row-sm p-1 m-auto" style={{fontFamily:'Anta'}}>
             <ul className="text-white">
               <li>
                 The participants are expected to complete the registration
