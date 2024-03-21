@@ -18,7 +18,7 @@ function Contact() {
               }}
             />
           </div>
-          <div className="col-md-6 text-white" style={{fontFamily:'Anta'}}>
+          <div className="col-md-8 text-white" style={{fontFamily:'Anta'}}>
             <h1>VIDYAVARDHINI'S COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
             <div className="row mt-4">
               <div className="col-sm-1 p-0" style={{ width: "auto" }}>
