@@ -60,7 +60,7 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="footer-bottom">
+          <div className="footer-bottom"style={{fontFamily:'Anta'}}>
             <p>© 2024 VNPS. All rights reserved.</p>
           </div>
         </div>

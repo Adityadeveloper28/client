@@ -30,7 +30,7 @@ function Main() {
         </div>
 
         <div className="text-center m-auto mt-5">
-          <Link className="btn btn-light fs-3 sub rounded-pill" type="button" onClick={() => handleLinkClick("rule")}>
+          <Link className="btn btn-light fs-3 sub rounded-2" type="button" onClick={() => handleLinkClick("rule")}>
             Registeration
           </Link>
         </div>

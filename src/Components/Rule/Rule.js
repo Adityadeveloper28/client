@@ -49,7 +49,7 @@ function Rule() {
                 alt="..."
                 style={{ width: "50%" }}
               />
-              <div className="card-body">
+              <div className="card-body" style={{fontFamily:'Anta'}}>
                 <h1 className="card-title fw-bolder text-center">Team Size</h1>
                 <p className="card-text text-center" style={{
                   fontSize:'1.35rem'
@@ -73,7 +73,7 @@ function Rule() {
                 alt="..."
                 style={{ width: "50%" }}
               />
-              <div className="card-body">
+              <div className="card-body" style={{fontFamily:'Anta'}}>
                 <h1 className="card-title fw-bolder text-center">
                   Registration Fee
                 </h1>
@@ -120,12 +120,12 @@ function Rule() {
                 style={{ width: "50%" }}
               />
               <div className="card-body ">
-                <h1 className="card-title fw-bolder text-center">
+                <h1 className="card-title fw-bolder text-center" style={{fontFamily:'Anta'}}>
                   REGISTRATION
                 </h1>
                 <button className="btn border border-2 m-auto d-flex mt-5 fs-2 fw-bolder" >
                   <Link to='https://forms.gle/2XTa9uRZv7Au2Dq3A'style={{
-                    textDecoration:'none',
+                    textDecoration:'none',fontFamily:'Anta',
                   }} className="link-none text-white">
                   Register Here</Link>
                 </button>
@@ -183,7 +183,7 @@ function Rule() {
                 Payment details
               </h3>
             </div>
-            <div className="row  payment">
+            <div className="row  payment"style={{fontFamily:'Anta'}}>
               <ul>
                 <li>Payment should be done by 4th April 2024 itself.</li>
                 <li>
@@ -249,7 +249,7 @@ function Rule() {
               </ul>
             </div>
           </div>
-          <div className="col-lg text-white">
+          <div className="col-lg text-white"style={{fontFamily:'Anta'}}>
             <div className="row">
               <img src={png6} style={{ width: "5rem" }} className="m-auto" />
               <h3
@@ -287,7 +287,7 @@ function Rule() {
                     <div className="accordion-body">
                       <div className="row">
                         <dt class="col-sm-4 text-center">Tisha Paul:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dd class="col-sm text-center ">
                           <a
                             href="tel: +91 8999184127"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
@@ -299,7 +299,7 @@ function Rule() {
                       </div>
                       <div className="row">
                         <dt class="col-sm-4 text-center">Omkar Malusare: </dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dd class="col-sm text-center ">
                           <a
                             href="tel:  +91 8605590713"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
@@ -333,7 +333,7 @@ function Rule() {
                     <div className="accordion-body">
                       <div className="row">
                         <dt class="col-sm-4 text-center">Rashmi Mote:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dd class="col-sm text-center ">
                           <a
                             href="tel: +91 8169734612"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
@@ -345,7 +345,7 @@ function Rule() {
                       </div>
                       <div className="row">
                         <dt class="col-sm-4 text-center">Omkar Bhikle:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dd class="col-sm text-center ">
                           <a
                             href="tel:   +91 8879135446"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
@@ -379,7 +379,7 @@ function Rule() {
                     <div className="accordion-body">
                       <div className="row">
                         <dt class="col-sm-5 text-center">Reena Vaidya :</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dd class="col-sm text-center ">
                           <a
                             href="tel: +91 7506759126"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
@@ -391,7 +391,7 @@ function Rule() {
                       </div>
                       <div className="row">
                         <dt class="col-sm-5 text-center">Pia Purohit :</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dd class="col-sm text-center ">
                           <a
                             href="tel: +91 7620411027
                           "
@@ -426,8 +426,8 @@ function Rule() {
                   >
                     <div className="accordion-body">
                       <div className="row">
-                        <dt class="col-sm-4 text-center">Aditya Lawate -</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dt class="col-sm-4 text-center">Aditya Lawate:</dt>
+                        <dd class="col-sm text-center ">
                           <a
                             href="tel:  +91 9860678418"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
@@ -439,7 +439,7 @@ function Rule() {
                       </div>
                       <div className="row">
                         <dt class="col-sm-4 text-center">Kartik Poojary:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dd class="col-sm text-center ">
                           <a
                             href="tel:+91 7507355838"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
@@ -474,7 +474,7 @@ function Rule() {
                     <div className="accordion-body">
                       <div className="row">
                         <dt class="col-sm-5 text-center">Deeksha Shetty: </dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dd class="col-sm text-center ">
                           <a
                             href="tel:  +91 8097470510"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "
@@ -485,7 +485,7 @@ function Rule() {
                       </div>
                       <div className="row">
                         <dt class="col-sm-5 text-center">Amey Mahajan:</dt>
-                        <dd class="col-sm-4 text-center ">
+                        <dd class="col-sm text-center ">
                           <a
                             href="tel:   +91 8657557690"
                             className="link-offset-2 link-underline link-underline-opacity-0 link-dark "

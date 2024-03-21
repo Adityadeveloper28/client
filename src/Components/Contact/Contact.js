@@ -8,7 +8,7 @@ function Contact() {
       <div className="fw-bolder text-center rule text-white">Contact us</div>
       <div className="container mt-5">
         <div className="row justify-content-center d-flex">
-          <div className="col ">
+          <div className="col-md-4 ">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.659991305768!2d72.82654491443476!3d19.383869586912066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7aec0a4b41bef%3A0xbd1a4ca919d6a613!2sVidyavardhini's+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1521540877490"
               style={{
@@ -18,7 +18,7 @@ function Contact() {
               }}
             />
           </div>
-          <div className="col text-white">
+          <div className="col-md-6 text-white" style={{fontFamily:'Anta'}}>
             <h1>VIDYAVARDHINI'S COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
             <div className="row mt-4">
               <div className="col-sm-1 p-0" style={{ width: "auto" }}>

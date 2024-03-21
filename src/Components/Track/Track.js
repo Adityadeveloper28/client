@@ -19,7 +19,7 @@ function Track() {
         <div className="row justify-content-md-center">
           <div className="col p-2 d-flex justify-content-center">
             <div
-              className="card border-5 border-secondary track1"
+              className="card border-5 track1"
               style={{ width: "23rem" }}
             >
               <img
@@ -33,9 +33,9 @@ function Track() {
               />
 
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 1</h5>
+                <h5 className="card-title fw-bolder trc">Track 1</h5>
               </div>
-              <ul className="list-group list-group-numbered rounded-2 p-2">
+              <ul className="list-group list-group-flush  list-group-numbered rounded-2 p-2">
                 <li className="list-group-item track2">
                   Mechanical System Design and Development{" "}
                 </li>
@@ -51,7 +51,7 @@ function Track() {
           </div>
           <div className="col p-2  d-flex justify-content-center">
             <div
-              className="card border-5 border-secondary track1"
+              className="card border-5  track1"
               style={{ width: "23rem" }}
             >
               <img
@@ -65,9 +65,9 @@ function Track() {
               />
 
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 2</h5>
+                <h5 className="card-title fw-bolder trc">Track 2</h5>
               </div>
-              <ul className="list-group list-group-numbered p-2">
+              <ul className="list-group list-group-flush  list-group-numbered p-2">
                 <li className="list-group-item track2">
                   Microcontroller and Embedded Systems
                 </li>
@@ -86,7 +86,7 @@ function Track() {
           </div>
           <div className="col p-2  d-flex justify-content-center rounded-3">
             <div
-              className="card border-5 border-secondary track1"
+              className="card border-5 track1"
               style={{ width: "23rem" }}
             >
               <img
@@ -99,9 +99,9 @@ function Track() {
                 className="rounded-3  mt-1 Imn "
               />
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 3</h5>
+                <h5 className="card-title fw-bolder trc">Track 3</h5>
               </div>
-              <ul className="list-group list-group-numbered p-2">
+              <ul className="list-group list-group-flush  list-group-numbered p-2">
                 <li className="list-group-item track2">Data Science</li>
                 <li className="list-group-item track2">
                   Artificial Intelligence{" "}
@@ -117,7 +117,7 @@ function Track() {
           </div>
           <div className="col p-2  d-flex justify-content-center ">
             <div
-              className="card border-5 border-secondary track1 "
+              className="card border-5  track1 "
               style={{ width: "23rem" }}
             >
               <img
@@ -131,9 +131,9 @@ function Track() {
               />
 
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 4</h5>
+                <h5 className="card-title fw-bolder trc">Track 4</h5>
               </div>
-              <ul className="list-group list-group-numbered p-2">
+              <ul className="list-group list-group-flush  list-group-numbered p-2">
                 <li className="list-group-item track2">
                   Cloud computing & Big Data Analytics{" "}
                 </li>
@@ -151,7 +151,7 @@ function Track() {
           </div>
           <div className="col p-2  d-flex justify-content-center">
             <div
-              className="card border-5 border-secondary track1"
+              className="card border-5  track1"
               style={{ width: "23rem" }}
             >
               <img
@@ -165,9 +165,9 @@ function Track() {
               />
 
               <div className="card-header mt-2">
-                <h5 className="card-title fw-bolder">Track 5</h5>
+                <h5 className="card-title fw-bolder trc">Track 5</h5>
               </div>
-              <ul className="list-group list-group-numbered p-2">
+              <ul className="list-group list-group-flush  list-group-numbered p-2">
                 <li className="list-group-item track2">
                   {" "}
                   Concrete Technology and Structural Engg.
