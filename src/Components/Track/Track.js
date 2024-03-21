@@ -42,6 +42,9 @@ function Track() {
                 <li className="list-group-item track2">
                   Renewable & Non Renewable Energy
                 </li>
+                  <li className="list-group-item track2">
+                  Industry 4.0
+                </li>
                 <li className="list-group-item track2">Electric Vehicle</li>
                 <li className="list-group-item track2">
                   AI and ML application to Mechanical Systems
