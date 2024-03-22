@@ -48,7 +48,7 @@ function Footer() {
                 </li>
                
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/vnps2024/">
                     <i className="fab fa-instagram" />
                   </a>
                 </li>
