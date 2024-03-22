@@ -17,7 +17,7 @@ function Footer() {
       <footer className="footer">
         <div className="container">
           <div className="footer-content">
-            <div className="footer-logo">VNPS'24</div>
+            <div className="footer-logo" style={{fontFamily:'Anta'}}>VNPS'24</div>
             <div className="footer-links">
               <ul className="footer-menu">
                 <li>
@@ -37,6 +37,22 @@ function Footer() {
                     Contact
                   </Link>
                 </li>
+              </ul>
+            </div>
+            <div className="footer-social">
+              <ul className="social-icons">
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=100080250005730&mibextid=ZbWKwL">
+                    <i className="fab fa-facebook-f" />
+                  </a>
+                </li>
+               
+                <li>
+                  <a href="#">
+                    <i className="fab fa-instagram" />
+                  </a>
+                </li>
+                
               </ul>
             </div>
           </div>

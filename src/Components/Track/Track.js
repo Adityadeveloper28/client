@@ -4,7 +4,7 @@ import gif from "./Time machine-bro.png";
 import gif1 from "./Firmware-amico.png";
 import gif3 from "./Real-time Sync-cuate.png";
 import gif4 from "./House restyling-bro.png";
-import png1 from "./people using robots-amico.png"
+import png1 from "./people using robots-amico.png";
 function Track() {
   return (
     <div className="container-fluid p-3 mt-5" id="track">
@@ -17,10 +17,7 @@ function Track() {
         </p>
         <div className="row justify-content-md-center">
           <div className="col p-2 d-flex justify-content-center">
-            <div
-              className="card border-5 track1"
-              style={{ width: "23rem" }}
-            >
+            <div className="card border-5 track1" style={{ width: "23rem" }}>
               <img
                 src={gif}
                 alt="Your GIF"
@@ -41,9 +38,7 @@ function Track() {
                 <li className="list-group-item track2">
                   Renewable & Non Renewable Energy
                 </li>
-                  <li className="list-group-item track2">
-                  Industry 4.0
-                </li>
+                <li className="list-group-item track2">Industry 4.0</li>
                 <li className="list-group-item track2">Electric Vehicle</li>
                 <li className="list-group-item track2">
                   AI and ML application to Mechanical Systems
@@ -52,10 +47,7 @@ function Track() {
             </div>
           </div>
           <div className="col p-2  d-flex justify-content-center">
-            <div
-              className="card border-5  track1"
-              style={{ width: "23rem" }}
-            >
+            <div className="card border-5  track1" style={{ width: "23rem" }}>
               <img
                 src={gif1}
                 alt="Your GIF"
@@ -78,19 +70,22 @@ function Track() {
                   Signal,Image, Speech & Video Processing
                 </li>
                 <li className="list-group-item track2">
-                  Emerging Wireless Communication Technologies and Sensor
-                  Networks
+                  Emerging Wireless Communication Technologies
                 </li>
                 <li className="list-group-item track2"> VLSI Application</li>
-                <li className="list-group-item track2"> Biomedical Instrumentation</li>
+                <li className="list-group-item track2">
+                  Automation using PLC,SCADA and DCS
+                </li>
+
+                <li className="list-group-item track2">
+                  {" "}
+                  Biomedical Instrumentation
+                </li>
               </ul>
             </div>
           </div>
           <div className="col p-2  d-flex justify-content-center rounded-3">
-            <div
-              className="card border-5 track1"
-              style={{ width: "23rem" }}
-            >
+            <div className="card border-5 track1" style={{ width: "23rem" }}>
               <img
                 src={png1}
                 alt="Your GIF"
@@ -118,10 +113,7 @@ function Track() {
             </div>
           </div>
           <div className="col p-2  d-flex justify-content-center ">
-            <div
-              className="card border-5  track1 "
-              style={{ width: "23rem" }}
-            >
+            <div className="card border-5  track1 " style={{ width: "23rem" }}>
               <img
                 src={gif3}
                 alt="Your GIF"
@@ -143,7 +135,6 @@ function Track() {
                 <li className="list-group-item track2">
                   Cyber security & Blockchain
                 </li>
-                <li className="list-group-item track2">Web Of Things</li>
                 <li className="list-group-item track2">
                   Mobile & Web Application{" "}
                 </li>
@@ -152,10 +143,7 @@ function Track() {
             </div>
           </div>
           <div className="col p-2  d-flex justify-content-center">
-            <div
-              className="card border-5  track1"
-              style={{ width: "23rem" }}
-            >
+            <div className="card border-5  track1" style={{ width: "23rem" }}>
               <img
                 src={gif4}
                 alt="Your GIF"
@@ -186,7 +174,6 @@ function Track() {
               </ul>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
